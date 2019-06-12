@@ -1,0 +1,15 @@
+.idea/
+.settings
+target/
+test-output/
+/debug.log
+debug.log
+.classpath
+.project
+/log/
+/report/
+*.iml
+
+/screenshot/*.png
+/allure-results/
+/.allure/

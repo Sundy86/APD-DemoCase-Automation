@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="APD Demo UI Automation Testing" verbose="1" thread-count="1">
+    <test name="All Testcase" preserve-order="true">
+        <packages>
+            <package name="com.cccis.testcase.demo90.*"/>
+            <!--<package name="com.cccis.testcase.demo121_126.*"/>-->
+            <!--<package name="com.cccis.testcase.demo11_49.*"/>-->
+            <!--<package name="com.cccis.testcase.demo117_120.*"/>-->
+        </packages>
+    </test> <!-- Test -->
+
+
+
+    <!--<test name="All Testcase" preserve-order="true">-->
+    <!--<classes>-->
+    <!--<class name="com.cccis.testcase.DefinedByVIN"/>-->
+    <!--</classes>-->
+    <!--</test> &lt;!&ndash; Test &ndash;&gt;-->
+    <listeners>
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+        <listener class-name="com.cccis.util.FailedStepListener"/>
+    </listeners>
+</suite> <!-- Suite -->
