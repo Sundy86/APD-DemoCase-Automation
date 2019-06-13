@@ -3,7 +3,7 @@
 <suite name="APD Demo UI Automation Testing" verbose="1" thread-count="1">
     <test name="All Testcase" preserve-order="true">
         <packages>
-            <package name="com.cccis.testcase.demo90.*"/>
+            <package name="com.cccis.testcase.demo.*"/>
             <!--<package name="com.cccis.testcase.demo121_126.*"/>-->
             <!--<package name="com.cccis.testcase.demo11_49.*"/>-->
             <!--<package name="com.cccis.testcase.demo117_120.*"/>-->
